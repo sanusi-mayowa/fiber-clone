@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 13%;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    top: 0;
+    /* right: 0; */
+    line-height: 1.5cm;
+    background: #fbf8f3;
+}
+.logo{
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+header ul{
+    display: flex;
+    gap: 1cm;
+}
+header ul li a{
+    color: black;
+    font-weight: 500;
+}
+.lol{
+    display: flex;
+    gap: 0.5cm;
+}
+.lol li a{
+    color: black;
+    font-weight: 700;
+}
+.lol button{
+    /* width: 80px; */
+    /* padding: 10px; */
+    display: inline-block;
+    padding: 15px 26px;
+    background: #4d13d1;
+    color: white;
+    border: 2px solid #4d13d1;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+section{
+    padding: 110px 13% 90px;
+    background: #fbf8f3;
+    /* margin-left: 0.5cm; */
+}
+.com{
+    display: flex;
+    gap: 0.5cm;
+}
+.hey h1{
+    font-size: 45px;
+}
+.bt{
+    margin-top: 0.5cm;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 1cm;
+}
+.bt button{
+    display: inline-block;
+    padding: 15px 26px;
+    background: #4d13d1;
+    color: white;
+    border: 2px solid #4d13d1;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.bt li a{
+    color: #4d13d1;
+    border-bottom: 2px solid #4d13d1;
+    font-weight: 600;
+}
+.bo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 0.2cm;
+}
+.bola{
+    display: flex;
+    gap: 0.5cm;
+    margin-top: 0.5cm;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    /* size: 100cm; */
+    gap: 2cm;
+    margin-top: 1cm;
+    /* width: 105%; */
+}
+.container{
+    width: 43%;
+}
+.price h1{
+    width: 40%;
+    margin-top: 0.3cm;
+}
+.price li a{
+    color: #4d13d1;
+    font-weight: 700;
+}
+.price{
+    background: white ;
+}
+.bode{
+    display: flex;
+    gap: 0.8cm;
+    margin-top: 1cm;
+}
+.kb h4{
+    margin-top: 0.3cm;
+}
+.kb p{
+    margin-top: 0.3cm;
+    width: 88%;
+}
+.pic p{
+    width: 80%;
+    color: #fbf8f3;
+    margin-top: 0.2cm;
+}
+.pic button{
+    display: inline-block;
+    padding: 15px 26px;
+    background: white;
+    color: #4d13d1;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 0.5cm;
+}
+.pic h1{
+    color: #fff;
+    width: 100%;
+}
+.orl{
+    background: #4d13d1;
+    padding: 50px 5% 0px;
+    border-radius: 8px;
+    margin-top: 1cm;
+    display: flex;
+    align-items: center;
+}
+.orl .or img{
+    margin-bottom: -0.15cm;
+}
+.card{
+    margin-top: 1.5cm;
+    display: flex;
+    gap: 0.5cm;
+}
+.car{
+    display: flex;
+    align-items: center;
+    gap: 0.3cm;
+}
+.cod{
+    border: 2px solid #d8d5d5;
+    width: 100%;
+    padding: 30px;
+    border-radius: 5px;
+    font-size: 14.5px;
+}
+.cod p{
+    margin-top: 0.5cm;
+}
+.hi{
+    color: #4d13d1;
+}
+.hey{
+    font-weight: 200;
+}
+.cod button{
+    display: inline-block;
+    padding: 10px 26px;
+    background: white;
+    color: #4d13d1;
+    border: 2px solid #d8d5d5;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 0.5cm;
+    width: 100%;
+}
+/* footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    padding: 30px 10%;
+    background: #fbf8f3;
+    line-height: 1cm;
+}
+.col2{
+    line-height: 1cm;
+}
+.col1{
+    width: 25%;
+} */
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    gap: 1cm;
+    background-color: #fbf8f3;
+    padding: 50px 9%;
+    justify-content: space-between;
+    line-height: 1cm;
+}
+   
+footer  a{
+   color:  rgb(107, 100, 100);
+   text-decoration: none;
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+footer p{
+    color:  rgb(107, 100, 100);
+}
+.move{
+    margin-left: 50px;
+}
+.ish{
+    margin-top: 0.5cm;
+}
+.mo ul{
+    gap: 1cm;
+    margin-top: 0.23cm;
+}
+.move p{
+    margin-top: 0.5cm;
+}

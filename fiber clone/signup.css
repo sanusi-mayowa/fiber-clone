@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    width: 50%;
+}
+.logo{
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+body{
+    padding: 50px 50px 50%;
+}
+section{
+    gap: 5cm;
+}
+.bob{
+    margin-top: 0.5cm;
+    gap: 1cm;
+}
+form p{
+    font-size: 15px;
+    font-weight: 600;
+}
+form{
+    display: grid;
+    gap: 1cm;
+}
+form input{
+    width: 50%;
+    
+    /* margin: 10px; */
+}
+.lol{
+    align-items: center;
+    margin-top: 0.5cm;
+    /* padding: 2px; */
+    /* text-align: center; */
+}
